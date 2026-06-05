@@ -15,5 +15,9 @@
 local.properties
 gradlew.bat
 
+# IDE files
+.idea/
+.vscode/
+
 # Ignore design reference files and skill guides
 .github/
