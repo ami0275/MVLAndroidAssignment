@@ -83,8 +83,3 @@ com.amitraj.mvlassignment/
    - Clickable booking items: selecting a past booking reloads it back into Screen 1 and centers the map view.
 
 ---
-
-## 🔒 Security Practices
-- **No Exposed Credentials**: API key is managed via Gradle `manifestPlaceholders` mapping from local property sources (`local.properties`).
-- **Input Sanitization**: Nickname inputs are bound to character validation rules.
-- **Local Persistence Security**: Caches locations and nicknames locally in a private Room database.
